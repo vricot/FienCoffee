@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Fien Coffee</title>
-    <nav>
-        <li>
-            Home
-        </li>
-        <li>
-            Our Story
-        </li>
-        <li>
-            Menu
-        </li>
-        <li>
-            Gift cards
-        </li>
-        <li>
-            Come Vibe with Us!
-        </li>
-        <li>
-            Socials
-        </li>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Our Story</a>
+              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#">Gift Cards</a>
+              <a class="nav-link" href="#">Contact Us!</a>
+              <a class="nav-link" href="#">Socials</a>
+            </div>
+          </div>
+        </div>
+      </nav>
   </head>
   <body>
-    <section>
+      <div>
         <h1>Fien</h1>
         <h3>An art-centered coffee shop connecting the neighborhood with coffee and local art.</h3>
-        <h2>Our Story</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi reprehenderit in, non error nostrum architecto tenetur praesentium ea ratione. Dolore suscipit exercitationem impedit rem enim ipsa voluptate repellat incidunt.</p>
-
-    </section>  
+      </div>     
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Art-centered</p>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <section>
-        <h2>Menu</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                1st row
+                <h2>Our Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi reprehenderit in, non error nostrum architecto tenetur praesentium ea ratione. Dolore suscipit exercitationem impedit rem enim ipsa voluptate repellat incidunt.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                  2nd row
+                  <h2>Menu</h2>
         <h3>Food</h3>
         <p><b>Bacon, Egg, and Cheese</b></p> 
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -53,18 +91,48 @@
         <p><b>Lavender Oat Latte</b></p> 
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         <button>Make an Order</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  3rd row
+                  <h2>Come Vibe with Us</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  4th row
+                  <p>map</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    5th row
+                  <footer>
+                    <p>socials</p>
+                    <p>Copyright</p>
+                 </footer>
+                </div>
+              </div>
+          </div>
+        
+        
+   
+       
+
+    </section>  
+    <section>
+        
     </section>
     <section>
-        <h2>Come Vibe with Us</h2>
+        
     </section>
      <section>
-         <p>map</p>
-         <footer>
-            <p>socials</p>
-            <p>Copyright</p>
-         </footer>
+       
+        
      </section>
  
-      
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
   </body>
 </html>
